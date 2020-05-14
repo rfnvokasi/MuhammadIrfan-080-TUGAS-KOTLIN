@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#46A8D6"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="HALAMAN UTAMA"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-black"
+        android:id="@+id/txtIntentUtama"/>
+
+    <EditText
+        android:layout_below="@+id/txtIntentUtama"
+        android:id="@+id/inputText1"
+        android:gravity="center"
+        android:layout_width="500px"
+        android:textColor="#fff"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:hint="Masukan nama..."
+        android:layout_marginTop="100px"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inputText1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50px"
+        android:id="@+id/Bintent1"
+        android:text="ke1"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Bintent1"
+        android:id="@+id/Bintent2"
+        android:layout_marginTop="50px"
+        android:layout_centerHorizontal="true"
+        android:text="ke2"/>
+
+</RelativeLayout>

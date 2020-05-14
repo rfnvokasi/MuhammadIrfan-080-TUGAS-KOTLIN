@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:backgroundTint="@color/cardview_dark_background"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_margin="10dp"
+        app:cardBackgroundColor="#000"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewName"
+            android:textColor="#fff"
+            android:textAllCaps="true"
+            android:textSize="16sp"
+            android:text="Rachmad Andri"
+            android:fontFamily="sans-serif-black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Blitar Indonesia"
+            android:textColor="#fff"
+            android:fontFamily="sans-serif-thin"
+            android:textSize="14sp"
+            android:id="@+id/textViewNim"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Blitar Indonesia"
+            android:textColor="#fff"
+            android:textSize="14sp"
+            android:id="@+id/textViewAlamat"
+            android:fontFamily="sans-serif-thin"/>
+
+    </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
